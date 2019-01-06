@@ -4,6 +4,8 @@ g=9.8;
 R=6371000; % Earth radius (m)
 omega=2*pi/(24*60*60); % Earth rotation angle velocity
 % input data
+% one can download the input file from 
+% https://drive.google.com/open?id=1RJ3VW9Nj1VIBsK06UGW5NnL57y-N2OCN
 OceanData=xlsread('woa13_2005-2012winter_density.csv');
 size_OceanData=size(OceanData,1);
 Dep=OceanData(1,3:49); %depth   1000 m at 49 
